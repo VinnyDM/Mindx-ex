@@ -1,0 +1,67 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Indie+Flower&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 64px;
+}
+
+#pic {
+    width: 152px;
+    margin: 16px;
+}
+.eat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.dishLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    max-width: 338px;
+}
+.dishRight {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    max-width: 338px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1,h2,p{
+    margin: 0%;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    color: rgb(88, 88, 88);
+}
+
+h2 {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 600;
+    font-size: 16px;
+    color: tomato;
+}
+
+h1 {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 600;
+    font-size: 28px;
+}
